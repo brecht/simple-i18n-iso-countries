@@ -7,3 +7,10 @@ var countries = {
   nl: require('./countries/nl')
 
 };
+
+exports.getCountries = function(locale){
+
+  if(countries[locale] === undefined) locale = defaultLocale;
+  return countries[locale];
+
+};

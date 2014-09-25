@@ -237,7 +237,7 @@ var countries = {
 	"ZM": "Zambia",
 	"ZW": "Zimbabwe",
 	"AX": "Åland Islands",
-	"BQ": "Bonaire, Sint Eustatius and Saba",
+	"BQ": "Bonaire, Saint Eustatius and Saba",
 	"CW": "Curaçao",
 	"GG": "Guernsey",
 	"IM": "Isle of Man",
@@ -246,7 +246,7 @@ var countries = {
 	"BL": "Saint Barthélemy",
 	"MF": "Saint Martin (French part)",
 	"RS": "Serbia",
-	"SX": "Sint Maarten (Dutch part)",
+	"SX": "Saint Martin (Dutch part)",
 	"SS": "South Sudan"
 };
 

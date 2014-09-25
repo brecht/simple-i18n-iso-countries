@@ -250,4 +250,4 @@ var countries = {
   "SS": "Sud-Soudan"
 };
 
-exports = countries;
+module.exports = countries;

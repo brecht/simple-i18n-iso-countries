@@ -1,3 +1,6 @@
+/*
+ * @summary Continents
+ */
 var continents = {
 
 	"AF": "Africa",
@@ -10,10 +13,13 @@ var continents = {
 
 };
 
+/*
+* @summary Countries
+*/
 var countries = {
 
 	"AF": {
-    "name" : "Afghanistan",
+		"name" : "Afghanistan",
     "capital" : "Kabul",
     "continent" : "AS",
     "currency" : "AFN",

@@ -1,3 +1,6 @@
+/*
+ * @summary Continents
+ */
 var continents = {
 
   "AF": "Afrika",
@@ -10,6 +13,9 @@ var continents = {
 
 };
 
+/*
+ * @summary Countries
+ */
 var countries = {
 
   "AF": {

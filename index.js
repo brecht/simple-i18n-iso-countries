@@ -1,6 +1,6 @@
 var defaultLocale = 'en';
 
-var i18nCountries = {
+var I18nCountries = {
 
   en:     require('./countries/en'),
   fr:     require('./countries/fr'),
@@ -11,13 +11,13 @@ var i18nCountries = {
 
 exports.getCountries = function(locale){
 
-  if(i18nCountries[locale] === undefined) locale = defaultLocale;
+  if(I18nCountries[locale] === undefined) locale = defaultLocale;
 
-  var countries = i18nCountries[locale];
+  var Countries = I18nCountries[locale];
 
-  for(var countryCode in countries){
+  for(var countryCode in Countries.countries){
 
-    var country = countries[countryCode];
+    var country = Countries.countries[countryCode];
     var sharedAttrs = i18nCountries.shared[countryCode];
 
     for(var attrName in sharedAttrs){

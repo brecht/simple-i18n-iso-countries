@@ -224,7 +224,7 @@ var countries = {
     "continent" : "EU",
     "currency" : "EUR",
     "languages" : "nl,fr,de",
-    "native" : "België",
+    "native" : "België/Belgique/Belgien",
     "phone" : "32"
   },
 

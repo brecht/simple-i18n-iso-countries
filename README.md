@@ -6,7 +6,6 @@ var i18nCountries = I18nCountries.getCountries('en');
 
 var belgium = i18nCountries.countries.BE;
 
-//
 //  {
 //    "name" : "Belgium",
 //    "capital" : "Brussels",

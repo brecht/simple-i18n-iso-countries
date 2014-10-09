@@ -29,8 +29,11 @@ var testCountries = function(locale){
   logBlock('REGIONS FOR US FOR ' + locale);
   console.log(i18nCountries.getRegions(locale,'US'));
 
-  logBlock('CONTINENTS FOR BE (does not exist) FOR ' + locale);
+  logBlock('REGIONS FOR BE FOR ' + locale);
   console.log(i18nCountries.getRegions(locale,'BE'));
+
+  logBlock('CONTINENTS FOR NL (does not exist) FOR ' + locale);
+  console.log(i18nCountries.getRegions(locale,'NL'));
 
 };
 

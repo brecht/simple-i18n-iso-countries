@@ -2,7 +2,7 @@ simple-i18n-iso-countries
 =========================
 This repo is available as an npm package, but not yet listed on npmjs.org (still in development).
 
-# Install
+# Installation
 ```
 npm install --save-dev git+https://github.com/brecht/simple-i18n-iso-countries.git
 ```

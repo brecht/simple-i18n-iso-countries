@@ -1,3 +1,6 @@
+/*
+ * @summary US Regions
+ */
 var regions = {
 
   "AL": "Alabama",

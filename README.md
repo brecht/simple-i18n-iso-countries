@@ -41,6 +41,7 @@ var belgium = i18nCountries.getCountries('en').BE; // alternatively: countries['
 Get all continents:
 ```
 var continents = i18nCountries.getContinents('en');
+
 //  {
 //    "AF": "Africa",
 //    "AN": "Antarctica",
@@ -65,6 +66,7 @@ var countries = i18nCountries.getCountries('en');
 var continents = i18nCountries.getContinents('en');
 var belgium = countries.BE; // alternatively: countries['BE'];
 var europe = continents[belgium.continent];
+
 // "Europe"
 ```
 

@@ -76,7 +76,7 @@ i18nCountries.getCountries = function(locale){
 
   }
 
-  return i18nCountries;
+  return countries;
 
 };
 

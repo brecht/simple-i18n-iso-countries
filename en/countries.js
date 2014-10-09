@@ -1,45 +1,30 @@
 /*
- * @summary Continents
- */
-var continents = {
-
-  "AF": "Afrique",
-  "AN": "Antarctique",
-  "AS": "Asie",
-  "EU": "Europe",
-  "NA": "Amérique du Nord",
-  "OC": "Océanie",
-  "SA": "Amérique du Sud"
-
-};
-
-/*
- * @summary Countries
- */
+* @summary Countries
+*/
 var countries = {
-  
+
   "AF": {
     "name" : "Afghanistan",
     "capital" : "Kabul"
   },
 
   "AL": {
-    "name" : "Albanie",
+    "name" : "Albania",
     "capital" : "Tirana"
   },
 
   "DZ": {
-    "name" : "Algérie",
+    "name" : "Algeria",
     "capital" : "Algiers"
   },
 
   "AS": {
-    "name" : "Samoa américaine",
+    "name" : "American Samoa",
     "capital" : "Pago Pago"
   },
 
   "AD": {
-    "name" : "Andorre",
+    "name" : "Andorra",
     "capital" : "Andorra la Vella"
   },
 
@@ -54,22 +39,22 @@ var countries = {
   },
 
   "AQ": {
-    "name" : "Antarctique",
+    "name" : "Antarctica",
     "capital" : ""
   },
 
   "AG": {
-    "name" : "Antigua et Barbuda",
+    "name" : "Antigua and Barbuda",
     "capital" : "Saint John's"
   },
 
   "AR": {
-    "name" : "Argentine",
+    "name" : "Argentina",
     "capital" : "Buenos Aires"
   },
 
   "AM": {
-    "name" : "Arménie",
+    "name" : "Armenia",
     "capital" : "Yerevan"
   },
 
@@ -79,17 +64,17 @@ var countries = {
   },
 
   "AU": {
-    "name" : "Australie",
+    "name" : "Australia",
     "capital" : "Canberra"
   },
 
   "AT": {
-    "name" : "Autriche",
+    "name" : "Austria",
     "capital" : "Vienna"
   },
 
   "AZ": {
-    "name" : "Azerbaidjan",
+    "name" : "Azerbaijan",
     "capital" : "Baku"
   },
 
@@ -99,7 +84,7 @@ var countries = {
   },
 
   "BH": {
-    "name" : "Bahrein",
+    "name" : "Bahrain",
     "capital" : "Manama"
   },
 
@@ -109,17 +94,17 @@ var countries = {
   },
 
   "BB": {
-    "name" : "Barbade",
+    "name" : "Barbados",
     "capital" : "Bridgetown"
   },
 
   "BY": {
-    "name" : "Bélarus",
+    "name" : "Belarus",
     "capital" : "Minsk"
   },
 
   "BE": {
-    "name" : "Belgique",
+    "name" : "Belgium",
     "capital" : "Brussels"
   },
 
@@ -129,27 +114,27 @@ var countries = {
   },
 
   "BJ": {
-    "name" : "Bénin",
+    "name" : "Benin",
     "capital" : "Porto-Novo"
   },
 
   "BM": {
-    "name" : "Bermudes",
+    "name" : "Bermuda",
     "capital" : "Hamilton"
   },
 
   "BT": {
-    "name" : "Bhoutan",
+    "name" : "Bhutan",
     "capital" : "Thimphu"
   },
 
   "BO": {
-    "name" : "Bolivie",
+    "name" : "Bolivia",
     "capital" : "Sucre"
   },
 
   "BA": {
-    "name" : "Bosnie-Herzégovine",
+    "name" : "Bosnia and Herzegovina",
     "capital" : "Sarajevo"
   },
 
@@ -159,17 +144,17 @@ var countries = {
   },
 
   "BV": {
-    "name" : "Île Bouvet",
+    "name" : "Bouvet Island",
     "capital" : ""
   },
 
   "BR": {
-    "name" : "Brésil",
+    "name" : "Brazil",
     "capital" : "Brasília"
   },
 
   "IO": {
-    "name" : "Océan Indien Britannique",
+    "name" : "British Indian Ocean Territory",
     "capital" : "Diego Garcia"
   },
 
@@ -179,7 +164,7 @@ var countries = {
   },
 
   "BG": {
-    "name" : "Bulgarie",
+    "name" : "Bulgaria",
     "capital" : "Sofia"
   },
 
@@ -194,12 +179,12 @@ var countries = {
   },
 
   "KH": {
-    "name" : "Cambodge",
+    "name" : "Cambodia",
     "capital" : "Phnom Penh"
   },
 
   "CM": {
-    "name" : "Cameroun",
+    "name" : "Cameroon",
     "capital" : "Yaoundé"
   },
 
@@ -209,67 +194,67 @@ var countries = {
   },
 
   "CV": {
-    "name" : "Cap-Vert",
+    "name" : "Cape Verde",
     "capital" : "Praia"
   },
 
   "KY": {
-    "name" : "Caïmanes",
+    "name" : "Cayman Islands",
     "capital" : "George Town"
   },
 
   "CF": {
-    "name" : "Centrafricaine, République",
+    "name" : "Central African Republic",
     "capital" : "Bangui"
   },
 
   "TD": {
-    "name" : "Tchad",
+    "name" : "Chad",
     "capital" : "N'Djamena"
   },
 
   "CL": {
-    "name" : "Chili",
+    "name" : "Chile",
     "capital" : "Santiago"
   },
 
   "CN": {
-    "name" : "Chine",
+    "name" : "China",
     "capital" : "Beijing"
   },
 
   "CX": {
-    "name" : "Île Christmas",
+    "name" : "Christmas Island",
     "capital" : "Flying Fish Cove"
   },
 
   "CC": {
-    "name" : "Cocos",
+    "name" : "Cocos (Keeling) Islands",
     "capital" : "West Island"
   },
 
   "CO": {
-    "name" : "Colombie",
+    "name" : "Colombia",
     "capital" : "Bogotá"
   },
 
   "KM": {
-    "name" : "Comores",
+    "name" : "Comoros",
     "capital" : "Moroni"
   },
 
   "CG": {
-    "name" : "Congo, République populaire",
+    "name" : "Congo",
     "capital" : "Brazzaville"
   },
 
   "CD": {
-    "name" : "Congo, République démocratique",
+    "name" : "Congo, the Democratic Republic of the",
     "capital" : "Kinshasa"
   },
 
   "CK": {
-    "name" : "Îles Cook",
+    "name" : "Cook Islands",
     "capital" : "Avarua"
   },
 
@@ -279,12 +264,12 @@ var countries = {
   },
 
   "CI": {
-    "name" : "Côte-d'Ivoire",
+    "name" : "Cote D'Ivoire",
     "capital" : "Yamoussoukro"
   },
 
   "HR": {
-    "name" : "Croatie",
+    "name" : "Croatia",
     "capital" : "Zagreb"
   },
 
@@ -294,17 +279,17 @@ var countries = {
   },
 
   "CY": {
-    "name" : "Chypre",
+    "name" : "Cyprus",
     "capital" : "Nicosia"
   },
 
   "CZ": {
-    "name" : "Tchéquie",
+    "name" : "Czech Republic",
     "capital" : "Prague"
   },
 
   "DK": {
-    "name" : "Danemark",
+    "name" : "Denmark",
     "capital" : "Copenhagen"
   },
 
@@ -314,22 +299,22 @@ var countries = {
   },
 
   "DM": {
-    "name" : "Dominique",
+    "name" : "Dominica",
     "capital" : "Roseau"
   },
 
   "DO": {
-    "name" : "République Dominicaine",
+    "name" : "Dominican Republic",
     "capital" : "Santo Domingo"
   },
 
   "EC": {
-    "name" : "Équateur",
+    "name" : "Ecuador",
     "capital" : "Quito"
   },
 
   "EG": {
-    "name" : "Égypte",
+    "name" : "Egypt",
     "capital" : "Cairo"
   },
 
@@ -339,42 +324,42 @@ var countries = {
   },
 
   "GQ": {
-    "name" : "Guinée équatoriale",
+    "name" : "Equatorial Guinea",
     "capital" : "Malabo"
   },
 
   "ER": {
-    "name" : "Érythrée",
+    "name" : "Eritrea",
     "capital" : "Asmara"
   },
 
   "EE": {
-    "name" : "Estonie",
+    "name" : "Estonia",
     "capital" : "Tallinn"
   },
 
   "ET": {
-    "name" : "Éthiopie",
+    "name" : "Ethiopia",
     "capital" : "Addis Ababa"
   },
 
   "FK": {
-    "name" : "Îles Malouines",
+    "name" : "Falkland Islands (Malvinas)",
     "capital" : "Stanley"
   },
 
   "FO": {
-    "name" : "Îles Féroé",
+    "name" : "Faroe Islands",
     "capital" : "Tórshavn"
   },
 
   "FJ": {
-    "name" : "Fidji",
+    "name" : "Fiji",
     "capital" : "Suva"
   },
 
   "FI": {
-    "name" : "Finlande",
+    "name" : "Finland",
     "capital" : "Helsinki"
   },
 
@@ -384,17 +369,17 @@ var countries = {
   },
 
   "GF": {
-    "name" : "Guyane française",
+    "name" : "French Guiana",
     "capital" : "Cayenne"
   },
 
   "PF": {
-    "name" : "Polynésie française",
+    "name" : "French Polynesia",
     "capital" : "Papeetē"
   },
 
   "TF": {
-    "name" : "Terres australes françaises",
+    "name" : "French Southern Territories",
     "capital" : "Port-aux-Français"
   },
 
@@ -404,17 +389,17 @@ var countries = {
   },
 
   "GM": {
-    "name" : "Gambie",
+    "name" : "Gambia",
     "capital" : "Banjul"
   },
 
   "GE": {
-    "name" : "Géorgie",
+    "name" : "Georgia",
     "capital" : "Tbilisi"
   },
 
   "DE": {
-    "name" : "Allemagne",
+    "name" : "Germany",
     "capital" : "Berlin"
   },
 
@@ -429,7 +414,7 @@ var countries = {
   },
 
   "GR": {
-    "name" : "Grèce",
+    "name" : "Greece",
     "capital" : "Athens"
   },
 
@@ -459,12 +444,12 @@ var countries = {
   },
 
   "GN": {
-    "name" : "Guinée",
+    "name" : "Guinea",
     "capital" : "Conakry"
   },
 
   "GW": {
-    "name" : "Guinée-Bissau",
+    "name" : "Guinea-Bissau",
     "capital" : "Bissau"
   },
 
@@ -474,17 +459,17 @@ var countries = {
   },
 
   "HT": {
-    "name" : "Haïti",
+    "name" : "Haiti",
     "capital" : "Port-au-Prince"
   },
 
   "HM": {
-    "name" : "Îles Heard-et-MacDonald",
+    "name" : "Heard Island and Mcdonald Islands",
     "capital" : ""
   },
 
   "VA": {
-    "name" : "Saint-Siège",
+    "name" : "Holy See (Vatican City State)",
     "capital" : "Vatican City"
   },
 
@@ -499,62 +484,62 @@ var countries = {
   },
 
   "HU": {
-    "name" : "Hongrie",
+    "name" : "Hungary",
     "capital" : "Budapest"
   },
 
   "IS": {
-    "name" : "Islande",
+    "name" : "Iceland",
     "capital" : "Reykjavik"
   },
 
   "IN": {
-    "name" : "Inde",
+    "name" : "India",
     "capital" : "New Delhi"
   },
 
   "ID": {
-    "name" : "Indonésie",
+    "name" : "Indonesia",
     "capital" : "Jakarta"
   },
 
   "IR": {
-    "name" : "Iran",
+    "name" : "Iran, Islamic Republic of",
     "capital" : "Tehran"
   },
 
   "IQ": {
-    "name" : "Irak",
+    "name" : "Iraq",
     "capital" : "Baghdad"
   },
 
   "IE": {
-    "name" : "Irlande",
+    "name" : "Ireland",
     "capital" : "Dublin"
   },
 
   "IL": {
-    "name" : "Israël",
+    "name" : "Israel",
     "capital" : "Jerusalem"
   },
 
   "IT": {
-    "name" : "Italie",
+    "name" : "Italy",
     "capital" : "Rome"
   },
 
   "JM": {
-    "name" : "Jamaïque",
+    "name" : "Jamaica",
     "capital" : "Kingston"
   },
 
   "JP": {
-    "name" : "Japon",
+    "name" : "Japan",
     "capital" : "Tokyo"
   },
 
   "JO": {
-    "name" : "Jordanie",
+    "name" : "Jordan",
     "capital" : "Amman"
   },
 
@@ -574,37 +559,37 @@ var countries = {
   },
 
   "KP": {
-    "name" : "Corée du Nord, République populaire démocratique",
+    "name" : "Korea, Democratic People's Republic of",
     "capital" : "Pyongyang"
   },
 
   "KR": {
-    "name" : "Corée du Sud, République",
+    "name" : "Korea, Republic of",
     "capital" : "Seoul"
   },
 
   "KW": {
-    "name" : "Koweit",
+    "name" : "Kuwait",
     "capital" : "Kuwait City"
   },
 
   "KG": {
-    "name" : "Kirghistan",
+    "name" : "Kyrgyzstan",
     "capital" : "Bishkek"
   },
 
   "LA": {
-    "name" : "Laos",
+    "name" : "Lao People's Democratic Republic",
     "capital" : "Vientiane"
   },
 
   "LV": {
-    "name" : "Lettonie",
+    "name" : "Latvia",
     "capital" : "Riga"
   },
 
   "LB": {
-    "name" : "Liban",
+    "name" : "Lebanon",
     "capital" : "Beirut"
   },
 
@@ -614,12 +599,12 @@ var countries = {
   },
 
   "LR": {
-    "name" : "Libéria",
+    "name" : "Liberia",
     "capital" : "Monrovia"
   },
 
   "LY": {
-    "name" : "Libye",
+    "name" : "Libyan Arab Jamahiriya",
     "capital" : "Tripoli"
   },
 
@@ -629,12 +614,12 @@ var countries = {
   },
 
   "LT": {
-    "name" : "Lituanie",
+    "name" : "Lithuania",
     "capital" : "Vilnius"
   },
 
   "LU": {
-    "name" : "Luxembourg, Grand-Duché",
+    "name" : "Luxembourg",
     "capital" : "Luxembourg"
   },
 
@@ -644,7 +629,7 @@ var countries = {
   },
 
   "MK": {
-    "name" : "Macédoine, Ex-République yougoslave",
+    "name" : "Macedonia, the Former Yugoslav Republic of",
     "capital" : "Skopje"
   },
 
@@ -659,7 +644,7 @@ var countries = {
   },
 
   "MY": {
-    "name" : "Malaisie",
+    "name" : "Malaysia",
     "capital" : "Kuala Lumpur"
   },
 
@@ -674,12 +659,12 @@ var countries = {
   },
 
   "MT": {
-    "name" : "Malte",
+    "name" : "Malta",
     "capital" : "Valletta"
   },
 
   "MH": {
-    "name" : "Îles Marshall",
+    "name" : "Marshall Islands",
     "capital" : "Majuro"
   },
 
@@ -689,12 +674,12 @@ var countries = {
   },
 
   "MR": {
-    "name" : "Mauritanie",
+    "name" : "Mauritania",
     "capital" : "Nouakchott"
   },
 
   "MU": {
-    "name" : "Maurice",
+    "name" : "Mauritius",
     "capital" : "Port Louis"
   },
 
@@ -704,17 +689,17 @@ var countries = {
   },
 
   "MX": {
-    "name" : "Mexique",
+    "name" : "Mexico",
     "capital" : "Mexico City"
   },
 
   "FM": {
-    "name" : "Micronésie",
+    "name" : "Micronesia, Federated States of",
     "capital" : "Palikir"
   },
 
   "MD": {
-    "name" : "Moldavie",
+    "name" : "Moldova, Republic of",
     "capital" : "Chișinău"
   },
 
@@ -724,7 +709,7 @@ var countries = {
   },
 
   "MN": {
-    "name" : "Mongolie",
+    "name" : "Mongolia",
     "capital" : "Ulan Bator"
   },
 
@@ -749,7 +734,7 @@ var countries = {
   },
 
   "NA": {
-    "name" : "Namibie",
+    "name" : "Namibia",
     "capital" : "Windhoek"
   },
 
@@ -759,22 +744,22 @@ var countries = {
   },
 
   "NP": {
-    "name" : "Népal",
+    "name" : "Nepal",
     "capital" : "Kathmandu"
   },
 
   "NL": {
-    "name" : "Pays-Bas",
+    "name" : "Netherlands",
     "capital" : "Amsterdam"
   },
 
   "NC": {
-    "name" : "Nouvelle-Calédonie",
+    "name" : "New Caledonia",
     "capital" : "Nouméa"
   },
 
   "NZ": {
-    "name" : "Nouvelle-Zélande",
+    "name" : "New Zealand",
     "capital" : "Wellington"
   },
 
@@ -789,27 +774,27 @@ var countries = {
   },
 
   "NG": {
-    "name" : "Nigéria",
+    "name" : "Nigeria",
     "capital" : "Abuja"
   },
 
   "NU": {
-    "name" : "Niué",
+    "name" : "Niue",
     "capital" : "Alofi"
   },
 
   "NF": {
-    "name" : "Île Norfolk",
+    "name" : "Norfolk Island",
     "capital" : "Kingston"
   },
 
   "MP": {
-    "name" : "Mariannes du Nord",
+    "name" : "Northern Mariana Islands",
     "capital" : "Saipan"
   },
 
   "NO": {
-    "name" : "Norvège",
+    "name" : "Norway",
     "capital" : "Oslo"
   },
 
@@ -829,7 +814,7 @@ var countries = {
   },
 
   "PS": {
-    "name" : "Palestine",
+    "name" : "Palestinian Territory, Occupied",
     "capital" : "Ramallah"
   },
 
@@ -839,7 +824,7 @@ var countries = {
   },
 
   "PG": {
-    "name" : "Papouasie-Nouvelle-Guinée",
+    "name" : "Papua New Guinea",
     "capital" : "Port Moresby"
   },
 
@@ -849,7 +834,7 @@ var countries = {
   },
 
   "PE": {
-    "name" : "Pérou",
+    "name" : "Peru",
     "capital" : "Lima"
   },
 
@@ -864,7 +849,7 @@ var countries = {
   },
 
   "PL": {
-    "name" : "Pologne",
+    "name" : "Poland",
     "capital" : "Warsaw"
   },
 
@@ -874,7 +859,7 @@ var countries = {
   },
 
   "PR": {
-    "name" : "Porto Rico",
+    "name" : "Puerto Rico",
     "capital" : "San Juan"
   },
 
@@ -884,17 +869,17 @@ var countries = {
   },
 
   "RE": {
-    "name" : "Réunion",
+    "name" : "Reunion",
     "capital" : "Saint-Denis"
   },
 
   "RO": {
-    "name" : "Roumanie",
+    "name" : "Romania",
     "capital" : "Bucharest"
   },
 
   "RU": {
-    "name" : "Russie",
+    "name" : "Russian Federation",
     "capital" : "Moscow"
   },
 
@@ -904,17 +889,17 @@ var countries = {
   },
 
   "SH": {
-    "name" : "Sainte-Hélène",
+    "name" : "Saint Helena",
     "capital" : "Jamestown"
   },
 
   "KN": {
-    "name" : "Saint-Christophe-et-Niévès",
+    "name" : "Saint Kitts and Nevis",
     "capital" : "Basseterre"
   },
 
   "LC": {
-    "name" : "Sainte-Lucie",
+    "name" : "Saint Lucia",
     "capital" : "Castries"
   },
 
@@ -924,7 +909,7 @@ var countries = {
   },
 
   "VC": {
-    "name" : "Saint-Vincent et les Grenadines",
+    "name" : "Saint Vincent and the Grenadines",
     "capital" : "Kingstown"
   },
 
@@ -934,22 +919,22 @@ var countries = {
   },
 
   "SM": {
-    "name" : "Saint-Marin",
+    "name" : "San Marino",
     "capital" : "City of San Marino"
   },
 
   "ST": {
-    "name" : "São Tomé et Principe",
+    "name" : "Sao Tome and Principe",
     "capital" : "São Tomé"
   },
 
   "SA": {
-    "name" : "Arabie Saoudite",
+    "name" : "Saudi Arabia",
     "capital" : "Riyadh"
   },
 
   "SN": {
-    "name" : "Sénégal",
+    "name" : "Senegal",
     "capital" : "Dakar"
   },
 
@@ -964,42 +949,42 @@ var countries = {
   },
 
   "SG": {
-    "name" : "Singapour",
+    "name" : "Singapore",
     "capital" : "Singapore"
   },
 
   "SK": {
-    "name" : "Slovaquie",
+    "name" : "Slovakia",
     "capital" : "Bratislava"
   },
 
   "SI": {
-    "name" : "Slovénie",
+    "name" : "Slovenia",
     "capital" : "Ljubljana"
   },
 
   "SB": {
-    "name" : "Salomon",
+    "name" : "Solomon Islands",
     "capital" : "Honiara"
   },
 
   "SO": {
-    "name" : "Somalie",
+    "name" : "Somalia",
     "capital" : "Mogadishu"
   },
 
   "ZA": {
-    "name" : "Afrique du Sud",
+    "name" : "South Africa",
     "capital" : "Pretoria"
   },
 
   "GS": {
-    "name" : "Géorgie du Sud-et-les Îles Sandwich du Sud",
+    "name" : "South Georgia and the South Sandwich Islands",
     "capital" : "King Edward Point"
   },
 
   "ES": {
-    "name" : "Espagne",
+    "name" : "Spain",
     "capital" : "Madrid"
   },
 
@@ -1009,7 +994,7 @@ var countries = {
   },
 
   "SD": {
-    "name" : "Soudan",
+    "name" : "Sudan",
     "capital" : "Khartoum"
   },
 
@@ -1019,52 +1004,52 @@ var countries = {
   },
 
   "SJ": {
-    "name" : "Svalbard et Île Jan Mayen",
+    "name" : "Svalbard and Jan Mayen",
     "capital" : "Longyearbyen"
   },
 
   "SZ": {
-    "name" : "Ngwane, Royaume du Swaziland",
+    "name" : "Swaziland",
     "capital" : "Lobamba"
   },
 
   "SE": {
-    "name" : "Suède",
+    "name" : "Sweden",
     "capital" : "Stockholm"
   },
 
   "CH": {
-    "name" : "Suisse",
+    "name" : "Switzerland",
     "capital" : "Bern"
   },
 
   "SY": {
-    "name" : "Syrie",
+    "name" : "Syrian Arab Republic",
     "capital" : "Damascus"
   },
 
   "TW": {
-    "name" : "Taïwan",
+    "name" : "Taiwan, Province of China",
     "capital" : "Taipei"
   },
 
   "TJ": {
-    "name" : "Tadjikistan",
+    "name" : "Tajikistan",
     "capital" : "Dushanbe"
   },
 
   "TZ": {
-    "name" : "Tanzanie, République unie",
+    "name" : "Tanzania, United Republic of",
     "capital" : "Dodoma"
   },
 
   "TH": {
-    "name" : "Thaïlande",
+    "name" : "Thailand",
     "capital" : "Bangkok"
   },
 
   "TL": {
-    "name" : "Timor Leste",
+    "name" : "Timor-Leste",
     "capital" : "Dili"
   },
 
@@ -1084,27 +1069,27 @@ var countries = {
   },
 
   "TT": {
-    "name" : "Trinidad et Tobago",
+    "name" : "Trinidad and Tobago",
     "capital" : "Port of Spain"
   },
 
   "TN": {
-    "name" : "Tunisie",
+    "name" : "Tunisia",
     "capital" : "Tunis"
   },
 
   "TR": {
-    "name" : "Turquie",
+    "name" : "Turkey",
     "capital" : "Ankara"
   },
 
   "TM": {
-    "name" : "Turkménistan",
+    "name" : "Turkmenistan",
     "capital" : "Ashgabat"
   },
 
   "TC": {
-    "name" : "Îles Turques-et-Caïques",
+    "name" : "Turks and Caicos Islands",
     "capital" : "Cockburn Town"
   },
 
@@ -1114,7 +1099,7 @@ var countries = {
   },
 
   "UG": {
-    "name" : "Ouganda",
+    "name" : "Uganda",
     "capital" : "Kampala"
   },
 
@@ -1124,12 +1109,12 @@ var countries = {
   },
 
   "AE": {
-    "name" : "Émirats arabes unis",
+    "name" : "United Arab Emirates",
     "capital" : "Abu Dhabi"
   },
 
   "GB": {
-    "name" : "Royaume-Uni",
+    "name" : "United Kingdom",
     "capital" : "London"
   },
 
@@ -1139,7 +1124,7 @@ var countries = {
   },
 
   "UM": {
-    "name" : "États-Unis d'Amérique",
+    "name" : "United States Minor Outlying Islands",
     "capital" : ""
   },
 
@@ -1149,7 +1134,7 @@ var countries = {
   },
 
   "UZ": {
-    "name" : "Ouzbékistan",
+    "name" : "Uzbekistan",
     "capital" : "Tashkent"
   },
 
@@ -1164,37 +1149,37 @@ var countries = {
   },
 
   "VN": {
-    "name" : "Vietnam",
+    "name" : "Viet Nam",
     "capital" : "Hanoi"
   },
 
   "VG": {
-    "name" : "Îles vierges britanniques",
+    "name" : "Virgin Islands, British",
     "capital" : "Road Town"
   },
 
   "VI": {
-    "name" : "Îles vierges américaines",
+    "name" : "Virgin Islands, U.s.",
     "capital" : "Charlotte Amalie"
   },
 
   "WF": {
-    "name" : "Wallis et Futuna",
+    "name" : "Wallis and Futuna",
     "capital" : "Mata-Utu"
   },
 
   "EH": {
-    "name" : "Sahara occidental",
+    "name" : "Western Sahara",
     "capital" : "El Aaiún"
   },
 
   "YE": {
-    "name" : "Yémen",
+    "name" : "Yemen",
     "capital" : "Sana'a"
   },
 
   "ZM": {
-    "name" : "Zambie",
+    "name" : "Zambia",
     "capital" : "Lusaka"
   },
 
@@ -1204,12 +1189,12 @@ var countries = {
   },
 
   "AX": {
-    "name" : "Åland",
+    "name" : "Åland Islands",
     "capital" : "Mariehamn"
   },
 
   "BQ": {
-    "name" : "Bonaire, Saint-Eustache et Saba",
+    "name" : "Bonaire, Saint Eustatius and Saba",
     "capital" : "Kralendijk"
   },
 
@@ -1219,12 +1204,12 @@ var countries = {
   },
 
   "GG": {
-    "name" : "Guernesey",
+    "name" : "Guernsey",
     "capital" : "St. Peter Port"
   },
 
   "IM": {
-    "name" : "Île de Man",
+    "name" : "Isle of Man",
     "capital" : "Douglas"
   },
 
@@ -1234,40 +1219,35 @@ var countries = {
   },
 
   "ME": {
-    "name" : "Monténégro",
+    "name" : "Montenegro",
     "capital" : "Podgorica"
   },
 
   "BL": {
-    "name" : "Saint-Barthélemy",
+    "name" : "Saint Barthélemy",
     "capital" : "Gustavia"
   },
 
   "MF": {
-    "name" : "Saint-Martin (partie française)",
+    "name" : "Saint Martin (French part)",
     "capital" : "Marigot"
   },
 
   "RS": {
-    "name" : "Serbie",
+    "name" : "Serbia",
     "capital" : "Belgrade"
   },
 
   "SX": {
-    "name" : "Saint-Martin (partie néerlandaise)",
+    "name" : "Saint Martin (Dutch part)",
     "capital" : "Philipsburg"
   },
 
   "SS": {
-    "name" : "Sud-Soudan",
+    "name" : "South Sudan",
     "capital" : "Juba"
   }
 
 };
 
-module.exports = {
-
-  continents: continents,
-  countries: countries
-
-};
+module.exports = countries;

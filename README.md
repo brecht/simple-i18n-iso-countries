@@ -71,7 +71,7 @@ var europe = continents[belgium.continent];
 ```
 
 ## Regions for a country
-Get all the states in the USA
+Get all the states of USA
 ```
 var states = i18nCountries.getRegions('en','US');
 

@@ -3,6 +3,7 @@
  */
 var regions = {
 
+  "BE" : require('./regions/be'),
   "US" : require('./regions/us')
 
 };

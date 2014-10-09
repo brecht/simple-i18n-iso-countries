@@ -60,14 +60,14 @@ var continents = i18nCountries.getContinents('en');
 var oceania = continents.OC; // alternatively: continents['OC'];
 ```
 
-Get the continent for Belgium
+Get the continent for China
 ```
 var countries = i18nCountries.getCountries('en');
 var continents = i18nCountries.getContinents('en');
-var belgium = countries.BE; // alternatively: countries['BE'];
-var europe = continents[belgium.continent];
+var china = countries.CN; // alternatively: countries['CN'];
+var continent = continents[china.continent];
 
-// "Europe"
+// "Asia"
 ```
 
 ## Regions for a country

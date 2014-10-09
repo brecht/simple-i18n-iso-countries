@@ -8,6 +8,7 @@ npm install --save-dev git+https://github.com/brecht/simple-i18n-iso-countries.g
 ```
 
 # Usage
+Require the module
 ```
 var i18nCountries = require('simple-i18n-iso-countries');
 ```
